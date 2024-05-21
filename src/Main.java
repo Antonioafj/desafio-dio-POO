@@ -14,17 +14,29 @@ public class Main {
 
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
-        curso2.setDescricao("descricao do curo java");
+        curso2.setDescricao("descricao do curso java");
         curso2.setCargaHoraria(10);
+
+        Curso curso3 = new Curso();
+        curso3.setTitulo("Curso C++");
+        curso3.setDescricao("Descrição do Curso C++");
+        curso3.setCargaHoraria(12);
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição da mentoria java");
         mentoria.setData(LocalDate.now());
+
+//        Mentoria mentoria2 = new Mentoria();
+//        mentoria2.setTitulo("mentoria de java segunda");
+//        mentoria2.setDescricao("descrição da mentoria java 2");
+//        mentoria2.setData(LocalDate.now());
 //
 //        System.out.println(curso1);
 //        System.out.println(curso2);
+//        System.out.println(curso3);
 //        System.out.println(mentoria);
+//        System.out.println(mentoria2);
 
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp java developer");
