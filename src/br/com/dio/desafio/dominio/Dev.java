@@ -32,6 +32,14 @@ public class Dev {
                 .sum();
     }
 
+    public String ganharBootcamp() {
+        if (calcularToralXp() >= 120) {
+            System.out.println("GANHOU BOOTCAMP GRÁTIS SOBRE IA");
+        } else {
+            System.out.println("SE ESFORCE MAIS UM POUCO PARA GANHAR UM BOOTCAMP GRATIS");
+        }
+        return "";
+    }
     public String getNome() {
         return nome;
     }
